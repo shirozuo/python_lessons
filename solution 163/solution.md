@@ -6,8 +6,8 @@
     import time
     
     class Loggable:
-    def log(self, msg):
-    print(str(time.ctime()) + ": " + str(msg))
+        def log(self, msg):
+            print(str(time.ctime()) + ": " + str(msg))
 
 У него есть ровно один метод log, который позволяет выводить в лог (в данном случае в stdout) какое-то сообщение,
 добавляя при этом текущее время.
