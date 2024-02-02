@@ -59,8 +59,8 @@
 
 По условию этого теста, Костя посмотрел на этот код, и сказал Антону, что исключение FileNotFoundError можно не ловить,
 ведь мы уже ловим OSError -- предок FileNotFoundError
-Sample Input:
 
+    Sample Input:
     4
     ArithmeticError
     ZeroDivisionError : ArithmeticError
